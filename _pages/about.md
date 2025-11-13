@@ -7,11 +7,11 @@ redirect_from:
   - /about.html
 ---
 
-I am a graduate engineering student at [Ecole polytechnique](https://programmes.polytechnique.edu/en/ingenieur-polytechnicien-program/ingenieur-polytechnicien-program) *(X 2022)*, currently specializing in Applied Mathematics and Machine Learning through the [Mathematics, Vision, Learning (MVA)](https://www.master-mva.com/) Master's program at [ENS Paris-Saclay](https://ens-paris-saclay.fr/).
+I am a graduate engineering student at [Ecole polytechnique](https://programmes.polytechnique.edu/en/ingenieur-polytechnicien-program/ingenieur-polytechnicien-program) *(X 2022)*, currently specializing in Applied Mathematics and Machine Learning through the [Mathematics, Vision, Learning (MVA)](https://www.master-mva.com/) Master's program at [ENS Paris-Saclay](https://ens-paris-saclay.fr/). I am mainly interested in Optimization and Learning Theory.
 
 Previously, I was a visiting research student in the [Department of Statistics](https://www.stats.ox.ac.uk/) at the University of Oxford, where I worked on online learning and optimization under the supervision of [Arya Akhavan](https://aryaakhavan.github.io/) and [Patrick Rebeschini](https://www.stats.ox.ac.uk/~rebeschi/).
 
-I am currently seeking an internship for April 2026 leading to a PhD position. My research interests lie in Optimization and Learning Theory.
+I am currently looking for an internship for April 2026 leading to a PhD position. Have a look at my [CV](/files/CV_2025.pdf) for additional information.
 
 ## Latest News
 

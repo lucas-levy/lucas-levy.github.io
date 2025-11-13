@@ -1,3 +1,10 @@
+---
+permalink: /research/
+title: "Publications & Talks"
+author_profile: true
+redirect_from: 
+---
+
 # Publications
 
 ## Preprints

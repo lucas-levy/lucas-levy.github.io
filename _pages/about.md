@@ -11,6 +11,8 @@ I am a graduate engineering student at [Ecole polytechnique](https://programmes.
 
 Previously, I was a visiting research student in the [Department of Statistics](https://www.stats.ox.ac.uk/) at the University of Oxford, where I worked on online learning and optimization under the supervision of [Arya Akhavan](https://aryaakhavan.github.io/) and [Patrick Rebeschini](https://www.stats.ox.ac.uk/~rebeschi/).
 
+I am currently seeking an internship for April 2026 leading to a PhD position. My research interests lie in Optimization and Learning Theory.
+
 ## Latest News
 
 * *December 15-18, 2025*: 🇪🇸 Happy to be part of the [2025 IMS International Conference on Statistics and Data Science (ICSDS)](https://sites.google.com/view/ims-icsds2025/) in Seville, where I will present a poster on my research on regularization via self-concordance in bandits.

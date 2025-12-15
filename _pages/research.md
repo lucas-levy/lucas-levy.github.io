@@ -13,4 +13,4 @@ redirect_from:
 
 ## Talks and presentations
 
-* **[2025 IMS International Conference on Statistics and Data Science (ICSDS)](https://sites.google.com/view/ims-icsds2025/) (Seville, Dec 2025)**. Poster: Self-Concordant Perturbations for Linear Bandits.
+* **[2025 IMS International Conference on Statistics and Data Science (ICSDS)](https://sites.google.com/view/ims-icsds2025/) (Seville, Dec 2025)**. Poster: Self-Concordant Perturbations for Linear Bandits. [[pdf](/files/poster_icsds_2025.pdf)]

@@ -7,9 +7,11 @@ redirect_from:
   - /about.html
 ---
 
-I am a graduate engineering student at [Ecole polytechnique](https://programmes.polytechnique.edu/en/ingenieur-polytechnicien-program/ingenieur-polytechnicien-program) *(X 2022)*, currently specializing in Applied Mathematics and Machine Learning through the [Mathematics, Vision, Learning (MVA)](https://www.master-mva.com/) Master's program at [ENS Paris-Saclay](https://ens-paris-saclay.fr/). Have a look at my [CV](/files/CV_2025.pdf) for additional information.
+I am currently a visiting research student in the [SIERRA Team](https://sierra-mlopt.github.io), under the supervision of [Michael Jordan](https://people.eecs.berkeley.edu/~jordan/) and [Francis Bach](htpps://www.di.ens.fr/~fbach/). I am mainly interested in Optimization and Machine Learning Theory.
 
-Previously, I was a visiting research student in the [Department of Statistics](https://www.stats.ox.ac.uk/) at the University of Oxford, where I worked on online learning and optimization under the supervision of [Arya Akhavan](https://aryaakhavan.github.io/) and [Patrick Rebeschini](https://www.stats.ox.ac.uk/~rebeschi/).
+I recently graduated from [Ecole polytechnique](https://programmes.polytechnique.edu/en/ingenieur-polytechnicien-program/ingenieur-polytechnicien-program) *(Cycle ingénieur, X 2022)*, where I specialized in Applied Mathematics and Machine Learning, and from the [Mathematics, Vision, Learning (MVA)](https://www.master-mva.com/) Master's program at [ENS Paris-Saclay](https://ens-paris-saclay.fr/). Have a look at my [CV](/files/CV_2025.pdf) for additional information.
+
+Previously, I was a visiting research student in the [Department of Statistics](https://www.stats.ox.ac.uk/) at the University of Oxford, where I worked on online optimization under bandit feedback under the supervision of [Arya Akhavan](https://aryaakhavan.github.io/) and [Patrick Rebeschini](https://www.stats.ox.ac.uk/~rebeschi/).
 
 ## Latest News
 

@@ -26,11 +26,11 @@ author:
   avatar           : "photo_2025.jpg"
   name             : "Lucas Lévy"
   pronouns         : # example: "she/her"  
-  bio              : "MS student at ENS Paris-Saclay and 4th year student at Ecole polytechnique"
-  location         : "Paris, France"
-  employer         : 
+  bio              : "Visiting research student at Inria and 4th year student at Ecole polytechnique"
+  location         : #
+  employer         : "Sierra team, Inria Paris, France"
   uri              : # URL
-  email            : "lucas.levy@polytechnique.edu" 
+  email            : "lucas.levy@inria.fr" 
 
   # Academic websites
   academia         : # URL

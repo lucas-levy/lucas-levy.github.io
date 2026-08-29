@@ -6,20 +6,14 @@ body {
     font-weight: 400;
 }
 a {
+    color:rgb(57, 88, 230);
     text-decoration: none;
 }
 a:hover {
-    color:darkorange;
+    color:rgb(255, 140, 0);
 }
-.author-content {
-    font-size: 13.5px;
-}
-.author-hyperlink-list li {
-    margin-bottom: 8px;
-}
-.author-hyperlink {
-    color:rgb(51, 51, 51);
-}
-.author-hyperlink:hover {
+.date {
     color:gray;
+    text-align: center;
+    font-style: italic;
 }

@@ -1,3 +1,4 @@
+<!doctype html>
 <html lang="en">
 
 <head>
@@ -12,97 +13,113 @@
     <link rel="icon" type="image/png" href="files/logo_ens_psl.ico">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
 </head>
 
 <body>
-    <div class="col-xxl-5 col-lg-8 col-10 mx-auto pt-4">
-        <div class="row justify-content-between gx-5">
+    <div class="page col-xxl-5 col-lg-8 col-10 mx-auto pt-4">
+        <div class="row justify-content-between align-items-center gx-5">
             <div class="col-md-4 pt-2">
                 <div class="mb-3 mt-2">
-                    <a href="https://lucas-levy.github.io/"><img style="width:100%;max-width:250px" src="files/photo_2025.jpg" alt="profile photo"></a>
+                    <a href="https://lucas-levy.github.io/"><img class="profile-photo" src="files/photo_2025.jpg" alt="profile photo"></a>
                 </div>
             </div>
             <div class="col-md-8 pt-2">
                 <div class="mb-3">
-                    <p class="h2 pb-2" style="text-align: center;">Lucas Lévy</p>
-                    <p style="text-align: justify;">
+                    <p class="h2 pb-2 name">Lucas Lévy</p>
+                    <p class="bio">
                         I am a first-year PhD student in the <a href="https://sierra-mlopt.github.io">SIERRA team</a> between INRIA Paris and <a href="https://ens.psl.eu">ENS Ulm</a>, where I am fortunate to work under the supervision of <a href="https://www.di.ens.fr/~fbach">Francis Bach</a> and <a href="https://people.eecs.berkeley.edu/~jordan/">Michael Jordan</a>.
                         My research interests lie at the intersection of Optimization, Machine Learning Theory and Anytime-Valid Inference.
                     </p>
-                    <p style="text-align: justify;">
-                        I recently earned my Engineering Degree from <a href="https://programmes.polytechnique.edu/en/ingenieur-polytechnicien-program/ingenieur-polytechnicien-program">Ecole polytechnique</a> <i>(X 2022)</i>, specializing in Applied Mathematics, alongside the MVA (Mathematics, Vision, Learning) Master's degree at ENS Paris-Saclay. 
+                    <p class="bio">
+                        I recently earned my Engineering Degree from <a href="https://programmes.polytechnique.edu/en/ingenieur-polytechnicien-program/ingenieur-polytechnicien-program">Ecole polytechnique</a> <i>(X 2022)</i>, specializing in Applied Mathematics, alongside the MVA (Mathematics, Vision, Learning) Master's degree at ENS Paris-Saclay.
                         Have a look at my <a href="files/CV_05_2026.pdf">CV</a> for additional information.
                     </p>
-                    <p style="text-align: center">
-                        <a href="mailto:lucas.levy@inria.fr">Email</a> / <a href="https://www.linkedin.com/in/lucas-lvy">Linkedin</a> / <a href="https://www.github.com/lucas-levy">Github</a>
+                    <p class="contact">
+                        <a href="mailto:lucas.levy@inria.fr">Email</a> 
+                        <span class="sep">/</span> 
+                        <a href="https://scholar.google.com/citations?user=ILQZGs4AAAAJ">Scholar</a> 
+                        <span class="sep">/</span> 
+                        <a href="https://www.linkedin.com/in/lucas-lvy">Linkedin</a> 
+                        <span class="sep">/</span> 
+                        <a href="https://www.github.com/lucas-levy">Github</a>
                     </p>
                 </div>
             </div>
         </div>
 
-        <div class="mb-5">
-            <p class="h4 mb-4">Publications</p>
-            <div class="mb-4">
-                <strong>Beyond Optimal Rates in Stochastic Optimization: Trajectory-Adaptive Stopping Rules</strong><br>
-                <a href="https://sites.google.com/view/liviu-aolaritei/">Liviu Aolaritei</a>, Lucas Lévy, <a href="https://www.di.ens.fr/~fbach">Francis Bach</a>, <a href="https://people.eecs.berkeley.edu/~jordan/">Michael I. Jordan</a><br>
-                <em>Preprint</em>, 2026<br>
-                [<a href="https://arxiv.org/abs/2608.25551">arxiv</a>]
+        <section>
+            <p class="h4 mb-4 section-title">Publications</p>
+            <div class="mb-4 pub">
+                <div class="pub-title">Beyond Optimal Rates in Stochastic Optimization: Trajectory-Adaptive Stopping Rules</div>
+                <div class="pub-authors">
+                    <a href="https://sites.google.com/view/liviu-aolaritei/">Liviu Aolaritei</a>, <span class="me">Lucas Lévy</span>, <a href="https://www.di.ens.fr/~fbach">Francis Bach</a>, <a href="https://people.eecs.berkeley.edu/~jordan/">Michael I. Jordan</a>
+                </div>
+                <div class="pub-links">
+                    <a class="tag" href="https://arxiv.org/abs/2608.25551">arxiv</a>
+                </div>
             </div>
-            <div class="mb-4">
-                <strong>Self-Concordant Perturbations for Linear Bandits</strong><br>
-                Lucas Lévy, <a href="https://www.linkedin.com/in/jlvaleau/">Jean-Lou Valeau</a>, <a href="https://aryaakhavan.github.io/">Arya Akhavan</a>, <a href="https://www.stats.ox.ac.uk/~rebeschi/">Patrick Rebeschini</a><br>
-                <em>Conference on Learning Theory (COLT)</em>, 2026<br>
-                [<a href="https://proceedings.mlr.press/v336/levy26a.html">proceedings</a>] [<a href="https://arxiv.org/abs/2510.24187">arxiv</a>]
+            <div class="mb-4 pub">
+                <div class="pub-title">Self-Concordant Perturbations for Linear Bandits</div>
+                <div class="pub-authors">
+                    <span class="me">Lucas Lévy</span>, <a href="https://www.linkedin.com/in/jlvaleau/">Jean-Lou Valeau</a>, <a href="https://aryaakhavan.github.io/">Arya Akhavan</a>, <a href="https://www.stats.ox.ac.uk/~rebeschi/">Patrick Rebeschini</a>
+                </div>
+                <div class="pub-venue"><em>Conference on Learning Theory (COLT)</em>, 2026</div>
+                <div class="pub-links">
+                    <a class="tag" href="https://proceedings.mlr.press/v336/levy26a.html">proceedings</a>
+                    <a class="tag" href="https://arxiv.org/abs/2510.24187">arxiv</a>
+                </div>
             </div>
-        </div>
+        </section>
 
-        <div class="mb-5">
-            <p class="h4 mb-4">Presentations</p>
+        <section>
+            <p class="h4 mb-4 section-title">Presentations</p>
 
             <!-- Grouped by the core paper -->
-            <div class="mb-4">
-                <p class="h6 mb-2"><b>Self-Concordant Perturbations for Linear Bandits</b></p>
-                
-                <div class="row mb-1">
-                    <div class="col-2 date">07/2026</div>
-                    <div class="col-sm-10">
-                        <b>Invited talk</b>: <em>"Sampling-Based Regularisation for Adversarial Linear Bandits"</em>,
-                        <a href="https://ims2026.github.io/IMS2026/">IMS Annual Meeting 2026</a>, Salzburg.
-                        [<a href="files/slides_IMS_26.pdf">slides</a>]
+            <div class="mb-4 talk-group">
+                <p class="h6 talk-group-title">Self-Concordant Perturbations for Linear Bandits</p>
+
+                <div class="talk">
+                    <div class="talk-date">07/2026</div>
+                    <div class="talk-body">
+                        <span class="talk-kind talk-kind-bold">Invited talk</span>: 
+                        <span class="talk-title">Sampling-Based Regularisation for Adversarial Linear Bandits</span>,
+                        <a href="https://ims2026.github.io/IMS2026/">IMS Annual Meeting 2026</a>, Salzburg, Austria.
+                        <a class="tag" href="files/slides_IMS_26.pdf">slides</a>
                     </div>
                 </div>
 
-                <div class="row mb-1">
-                    <div class="col-2 date">07/2026</div>
-                    <div class="col-sm-10">
-                        Talk, <a href="https://learningtheory.org/colt2026/">Conference on Learning Theory (COLT)</a>, San Diego.
-                        [<a href="files/slides_COLT_26.pdf">slides</a>]
+                <div class="talk">
+                    <div class="talk-date">07/2026</div>
+                    <div class="talk-body">
+                        <span class="talk-kind">Talk</span>, <a href="https://learningtheory.org/colt2026/">Conference on Learning Theory (COLT)</a>, San Diego.
+                        <a class="tag" href="files/slides_COLT_26.pdf">slides</a>
                     </div>
                 </div>
-                
-                <div class="row mb-1">
-                    <div class="col-2 date">06/2026</div>
-                    <div class="col-sm-10">
-                        Poster, <a href="https://ghost-team.gitlabpages.inria.fr/events/optimization_learning26/">Workshop on Constrained Optimization and Learning</a>, Grenoble.
-                        [<a href="files/poster_icsds_2025.pdf">poster</a>]
+
+                <div class="talk">
+                    <div class="talk-date">06/2026</div>
+                    <div class="talk-body">
+                        <span class="talk-kind">Poster</span>, <a href="https://ghost-team.gitlabpages.inria.fr/events/optimization_learning26/">Workshop on Constrained Optimization and Learning</a>, Grenoble, France.
+                        <a class="tag" href="files/poster_icsds_2025.pdf">poster</a>
                     </div>
                 </div>
-                
-                <div class="row mb-1">
-                    <div class="col-2 date">12/2025</div>
-                    <div class="col-sm-10">
-                        Poster, <a href="https://sites.google.com/view/ims-icsds2025/">ICSDS 2025</a>, Seville.
-                        [<a href="files/poster_icsds_2025.pdf">poster</a>]
+
+                <div class="talk">
+                    <div class="talk-date">12/2025</div>
+                    <div class="talk-body">
+                        <span class="talk-kind">Poster</span>, <a href="https://sites.google.com/view/ims-icsds2025/">ICSDS 2025</a>, Seville.
+                        <a class="tag" href="files/poster_icsds_2025.pdf">poster</a>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
-
-
 
 </html>

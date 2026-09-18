@@ -1,19 +1,230 @@
+/* ------------------------------------------------------------------
+   Tokens
+   ------------------------------------------------------------------ */
+:root {
+    color-scheme: light;
 
-body {
-    font-size: 17px;
-    line-height: 1.25;
-    font-family: 'Open Sans', Arial, sans-serif;
-    font-weight: 400;
+    --bg: #ffffff;
+    --ink: #1f2328;
+    --ink-muted: #5b6570;
+    --ink-faint: #868f9a;
+    --rule: #e4e7eb;
+
+    --link: #2b4fc7;
+    --link-hover: #d87e16;
+    --tag-bg: rgba(43, 79, 199, 0.08);
 }
+
+/* ------------------------------------------------------------------
+   Base
+   ------------------------------------------------------------------ */
+body {
+    background-color: var(--bg);
+    color: var(--ink);
+    font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+    font-size: 1.0625rem;   /* 17px */
+    font-weight: 400;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Caps the reading measure: without a .container, col-xxl-5 keeps growing
+   with the viewport and lines get uncomfortably long on wide monitors. */
+.page {
+    max-width: 880px;
+    padding-bottom: 4rem;
+}
+
+/* Section rhythm is set here rather than with Bootstrap's .mb-5, whose
+   !important makes it hard to tune. The first section sits closer to the
+   header; the gap between sections is wider, so they read as separate. */
+.page > section {
+    margin-top: 2.25rem;
+}
+
+.page > section + section {
+    margin-top: 4.5rem;
+}
+
 a {
-    color:rgb(57, 88, 230);
+    color: var(--link);
+    text-decoration: none;
+    transition: color .15s ease, background-color .15s ease;
+}
+
+a:hover {
+    color: var(--link-hover);
+}
+
+a:focus-visible {
+    outline: 2px solid var(--link);
+    outline-offset: 2px;
+    border-radius: 3px;
+}
+
+/* ------------------------------------------------------------------
+   Header
+   ------------------------------------------------------------------ */
+.profile-photo {
+    width: 100%;
+    max-width: 250px;
+}
+
+.name {
+    text-align: center;
+    font-weight: 600;
+}
+
+.bio {
+    text-align: justify;
+    margin-bottom: 1rem;
+}
+
+.contact {
+    text-align: center;
+    margin-top: 1.25rem;
+    margin-bottom: 0;
+}
+
+.contact a {
+    font-weight: 600;
+}
+
+.sep {
+    color: var(--ink-faint);
+    margin: 0 .3rem;
+}
+
+/* ------------------------------------------------------------------
+   Section headings
+   ------------------------------------------------------------------ */
+.section-title {
+    font-size: .8rem;
+    font-weight: 700;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: var(--ink-muted);
+    padding-bottom: .5rem;
+    border-bottom: 1px solid var(--rule);
+}
+
+/* ------------------------------------------------------------------
+   Publications
+   ------------------------------------------------------------------ */
+.pub-title {
+    font-weight: 600;
+    line-height: 1.4;
+    margin-bottom: .1rem;
+}
+
+.pub-authors,
+.pub-venue {
+    color: var(--ink-muted);
+    font-size: .95rem;
+    line-height: 1.5;
+}
+
+/* Author lists are scanned, not read: the owner's name should pop out. */
+.me {
+    font-weight: 700;
+    color: var(--ink);
+}
+
+.pub-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .4rem;
+    margin-top: .55rem;
+}
+
+.tag {
+    display: inline-block;
+    padding: .1rem .6rem;
+    border-radius: 999px;
+    background-color: var(--tag-bg);
+    color: var(--link);
+    font-size: .8rem;
+    font-weight: 600;
+    letter-spacing: .02em;
+    line-height: 1.55;
+    white-space: nowrap;
+}
+
+.tag:hover {
+    background-color: var(--link);
+    color: #ffffff;
     text-decoration: none;
 }
-a:hover {
-    color:rgb(255, 140, 0);
+
+/* ------------------------------------------------------------------
+   Presentations
+   ------------------------------------------------------------------ */
+.talk-group-title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--ink);
+    margin-bottom: .55rem;
 }
-.date {
-    color:gray;
-    text-align: center;
+
+/* Flex rather than a Bootstrap row: col-sm-2 reserves ~147px at the 880px
+   cap for a 7-character date, leaving a wide empty gutter, and col-2 applies
+   at every breakpoint so the date is crushed on phones. */
+.talk {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: .45rem;
+}
+
+.talk-date {
+    flex: 0 0 4.75rem;
+    color: var(--ink-faint);
     font-style: italic;
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+    font-size: .95rem;
+}
+
+.talk-body {
+    font-size: .97rem;
+}
+
+/* Contributed talks and posters sit a level below invited ones, so they
+   recede rather than matching its weight. */
+.talk-kind {
+    color: var(--ink);
+}
+
+.talk-kind-bold {
+    font-weight: 600;
+    color: var(--ink);
+}
+
+.talk-title {
+    font-style: italic;
+}
+
+@media (max-width: 400px) {
+    .talk {
+        flex-wrap: wrap;
+        gap: 0 1rem;
+    }
+
+    .talk-date {
+        flex-basis: 100%;
+    }
+}
+
+.talk-body .tag {
+    margin-left: .25rem;
+    vertical-align: baseline;
+}
+
+/* ------------------------------------------------------------------
+   Accessibility
+   ------------------------------------------------------------------ */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        transition: none !important;
+    }
 }
